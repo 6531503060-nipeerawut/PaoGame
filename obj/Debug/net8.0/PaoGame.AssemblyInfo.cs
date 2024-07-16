@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PaoGame")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+efcc21362a1963b73a1a41a5c914d9d2b1b9d318")]
 [assembly: System.Reflection.AssemblyProductAttribute("PaoGame")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PaoGame")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

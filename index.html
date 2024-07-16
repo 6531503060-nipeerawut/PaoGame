@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PaoYingChoop Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>PaoYingChoop Game</h1>
+        <div id="mode-selection">
+            <h2>Select Mode</h2>
+            <button onclick="selectMode(1)">Single Player</button>
+            <button onclick="selectMode(2)">Multiplayer</button>
+        </div>
+        <div id="single-player" class="hidden">
+            <h2>Single Player Mode</h2>
+            <label for="username">Username:</label>
+            <input type="text" id="username">
+            <div class="actions">
+                <button onclick="playerAction('r')">Rock</button>
+                <button onclick="playerAction('p')">Paper</button>
+                <button onclick="playerAction('s')">Scissors</button>
+            </div>
+            <div id="result"></div>
+            <button onclick="resetGame()">Back</button>
+        </div>
+        <div id="multi-player" class="hidden">
+            <h2>Multiplayer Mode</h2>
+            <div id="player1-actions" class="actions">
+                <h3>Player 1</h3>
+                <button onclick="player1Action('r')">Rock</button>
+                <button onclick="player1Action('p')">Paper</button>
+                <button onclick="player1Action('s')">Scissors</button>
+            </div>
+            <div id="player2-actions" class="actions hidden">
+                <h3>Player 2</h3>
+                <button onclick="player2Action('r')">Rock</button>
+                <button onclick="player2Action('p')">Paper</button>
+                <button onclick="player2Action('s')">Scissors</button>
+            </div>
+            <div id="multi-result"></div>
+            <button onclick="resetGame()">Back</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
