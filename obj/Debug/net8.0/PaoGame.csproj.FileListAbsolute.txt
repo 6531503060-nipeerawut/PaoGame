@@ -1,0 +1,14 @@
+/Users/peerawutnipakornpan/Desktop/C#/PaoGame/bin/Debug/net8.0/PaoGame
+/Users/peerawutnipakornpan/Desktop/C#/PaoGame/bin/Debug/net8.0/PaoGame.deps.json
+/Users/peerawutnipakornpan/Desktop/C#/PaoGame/bin/Debug/net8.0/PaoGame.runtimeconfig.json
+/Users/peerawutnipakornpan/Desktop/C#/PaoGame/bin/Debug/net8.0/PaoGame.dll
+/Users/peerawutnipakornpan/Desktop/C#/PaoGame/bin/Debug/net8.0/PaoGame.pdb
+/Users/peerawutnipakornpan/Desktop/C#/PaoGame/obj/Debug/net8.0/PaoGame.GeneratedMSBuildEditorConfig.editorconfig
+/Users/peerawutnipakornpan/Desktop/C#/PaoGame/obj/Debug/net8.0/PaoGame.AssemblyInfoInputs.cache
+/Users/peerawutnipakornpan/Desktop/C#/PaoGame/obj/Debug/net8.0/PaoGame.AssemblyInfo.cs
+/Users/peerawutnipakornpan/Desktop/C#/PaoGame/obj/Debug/net8.0/PaoGame.csproj.CoreCompileInputs.cache
+/Users/peerawutnipakornpan/Desktop/C#/PaoGame/obj/Debug/net8.0/PaoGame.dll
+/Users/peerawutnipakornpan/Desktop/C#/PaoGame/obj/Debug/net8.0/refint/PaoGame.dll
+/Users/peerawutnipakornpan/Desktop/C#/PaoGame/obj/Debug/net8.0/PaoGame.pdb
+/Users/peerawutnipakornpan/Desktop/C#/PaoGame/obj/Debug/net8.0/PaoGame.genruntimeconfig.cache
+/Users/peerawutnipakornpan/Desktop/C#/PaoGame/obj/Debug/net8.0/ref/PaoGame.dll
