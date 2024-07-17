@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PaoYingChoop Game</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -17,14 +18,14 @@
         <div id="single-player" class="hidden">
             <h2>Single Player Mode</h2>
             <label for="username">Username:</label>
-            <input type="text" id="username">
+            <input type="text" id="username" placeholder="Enter your username">
             <div class="actions">
                 <button onclick="playerAction('r')">Rock</button>
                 <button onclick="playerAction('p')">Paper</button>
                 <button onclick="playerAction('s')">Scissors</button>
             </div>
             <div id="result"></div>
-            <button onclick="resetGame()">Back</button>
+            <button class="back-btn" onclick="resetGame()">Back</button>
         </div>
         <div id="multi-player" class="hidden">
             <h2>Multiplayer Mode</h2>
@@ -41,7 +42,7 @@
                 <button onclick="player2Action('s')">Scissors</button>
             </div>
             <div id="multi-result"></div>
-            <button onclick="resetGame()">Back</button>
+            <button class="back-btn" onclick="resetGame()">Back</button>
         </div>
     </div>
     <script src="script.js"></script>

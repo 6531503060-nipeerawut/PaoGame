@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/peerawutnipakornpan/Desktop/C#/PaoGame/PaoGame.csproj",
+      "projectUniqueName": "/Users/peerawutnipakornpan/Desktop/C#/PaoGame/PaoGame/PaoGame.csproj",
       "projectName": "PaoGame",
-      "projectPath": "/Users/peerawutnipakornpan/Desktop/C#/PaoGame/PaoGame.csproj",
+      "projectPath": "/Users/peerawutnipakornpan/Desktop/C#/PaoGame/PaoGame/PaoGame.csproj",
       "packagesPath": "/Users/peerawutnipakornpan/.nuget/packages/",
-      "outputPath": "/Users/peerawutnipakornpan/Desktop/C#/PaoGame/obj/",
+      "outputPath": "/Users/peerawutnipakornpan/Desktop/C#/PaoGame/PaoGame/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/peerawutnipakornpan/.nuget/NuGet/NuGet.Config"
