@@ -3,57 +3,67 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0;
+    height: 120vh;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
     margin: 0;
     color: #333;
 }
 
 .container {
     text-align: center;
-    background: #fff;
-    padding: 20px 40px;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 350px;
+    background: rgba(255, 255, 255, 0.85);
+    padding: 40px 60px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    transition: transform 0.3s;
+}
+
+.container:hover {
+    transform: translateY(-10px);
 }
 
 h1 {
-    font-size: 28px;
+    font-size: 32px;
     margin-bottom: 20px;
     color: #007BFF;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 26px;
     margin-bottom: 15px;
     color: #333;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: 10px;
     color: #555;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 button {
     background-color: #007BFF;
     color: white;
     border: none;
-    padding: 10px 20px;
-    margin: 10px 0;
-    border-radius: 25px;
+    padding: 12px 25px;
+    margin: 15px 0;
+    border-radius: 30px;
     cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s;
+    font-size: 18px;
+    transition: background-color 0.3s, transform 0.2s;
 }
 
 button:hover {
     background-color: #0056b3;
+    transform: scale(1.05);
 }
 
 button:active {
     background-color: #004494;
+    transform: scale(1);
 }
 
 .hidden {
@@ -64,22 +74,23 @@ button:active {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px 0;
+    margin: 30px 0;
 }
 
 input[type="text"] {
-    width: 80%;
-    padding: 10px;
-    margin: 10px 0;
+    width: 85%;
+    padding: 12px;
+    margin: 15px 0;
     border: 1px solid #ccc;
-    border-radius: 25px;
+    border-radius: 30px;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #result, #multi-result {
-    margin-top: 20px;
-    font-size: 18px;
+    margin-top: 25px;
+    font-size: 20px;
     color: #333;
 }
 

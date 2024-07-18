@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/peerawutnipakornpan/Desktop/C#/PaoGame/PaoGame/PaoGame.csproj": {}
+    "/Users/peerawutnipakornpan/Desktop/PaoGame/PaoGame.csproj": {}
   },
   "projects": {
-    "/Users/peerawutnipakornpan/Desktop/C#/PaoGame/PaoGame/PaoGame.csproj": {
+    "/Users/peerawutnipakornpan/Desktop/PaoGame/PaoGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/peerawutnipakornpan/Desktop/C#/PaoGame/PaoGame/PaoGame.csproj",
+        "projectUniqueName": "/Users/peerawutnipakornpan/Desktop/PaoGame/PaoGame.csproj",
         "projectName": "PaoGame",
-        "projectPath": "/Users/peerawutnipakornpan/Desktop/C#/PaoGame/PaoGame/PaoGame.csproj",
+        "projectPath": "/Users/peerawutnipakornpan/Desktop/PaoGame/PaoGame.csproj",
         "packagesPath": "/Users/peerawutnipakornpan/.nuget/packages/",
-        "outputPath": "/Users/peerawutnipakornpan/Desktop/C#/PaoGame/PaoGame/obj/",
+        "outputPath": "/Users/peerawutnipakornpan/Desktop/PaoGame/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/peerawutnipakornpan/.nuget/NuGet/NuGet.Config"
